@@ -31,6 +31,19 @@
     display: none;
 }
 
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about h1{
+    font-weight: bold;
+}
+.about p{
+    font-weight: 500;
+}
+
 .foot{
     /* display: flex; */
     text-align: center;
