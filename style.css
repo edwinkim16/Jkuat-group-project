@@ -44,6 +44,55 @@
     font-weight: 500;
 }
 
+.contactus{
+    color: white;
+    background-image: url(./assets/c_image.jpg);
+    background-position: center;
+    height: 60vh;
+    align-items: center;
+    padding: 1%;
+}
+.contactus h1{
+    text-align: center;
+}
+input{
+    background: transparent;
+    width: 20%;
+    border: solid 1px white;
+}
+textarea{
+background: transparent;
+border: solid 1px white;
+margin-top: 3px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.message{
+    display: flex;
+    justify-content: center;
+}
+.sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 15px;
+    margin-top: 8px;
+    background-color: #164A41;
+    width: 30%;
+    
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color:  #ffa8B6;
+}
+
 .foot{
     /* display: flex; */
     text-align: center;
