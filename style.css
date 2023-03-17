@@ -1,5 +1,5 @@
 .services{
-    /* background-image: url(./assets/s_image.jpg); */
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +46,7 @@
 
 .contactus{
     color: white;
-    background-image: url(./assets/c_image.jpg);
+    background-image: url(Assets/c_image.jpg);
     background-position: center;
     height: 60vh;
     align-items: center;
@@ -93,10 +93,7 @@ button:hover{
     background-color:  #ffa8B6;
 }
 
-.foot{
-    /* display: flex; */
-    text-align: center;
-}
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
 * {
@@ -273,7 +270,7 @@ section {
 	margin-bottom: 5px;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
+/*  footer  media queries */
 
 @media (max-width: 880px) {
 
